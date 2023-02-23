@@ -1,0 +1,15 @@
+Hardware required:
+  2x L298n dual H bridge 
+  4x DC Motors
+  Pasberry Pi 3b
+  Power Source packs for dedicated 5V to each pieve of hardware (pi and each controller). Can be combined in parallel 
+  
+  
+  Schematic configuration:
+    1st contoller
+      IN1, IN2, IN3, IN4 connected to rasberry pi GPIO pins 
+    2nd controller
+      IN1, IN2, IN3, IN4 connected to rasberry pi GPIO pins 
+    Each controller 5V hot to battery pack and ground to ground on rasberry pi
+    
+   Motor set up is for 2 motors per controller connected into the same OUT1 and OUT2
